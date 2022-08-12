@@ -1,0 +1,12 @@
+package circulo;
+
+public class PrueboCirculo {
+
+	public static void main(String[] args) {
+		Circulo circulito = new Circulo(2);
+		
+		System.out.println("Area igual: "+ circulito.obtenerArea());
+
+	}
+
+}

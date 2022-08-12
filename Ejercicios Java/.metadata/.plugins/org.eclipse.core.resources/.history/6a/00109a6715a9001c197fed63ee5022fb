@@ -1,0 +1,32 @@
+package circulo;
+
+public class Circulo {
+	
+	private double radio;
+	private Punto centro;
+	
+	public Circulo(double r) {
+		radio=r;
+	}
+	
+	public Circulo(double r, Punto c) {
+		radio=r;
+		this.centro = c;
+	}
+	
+public double calcularParametro() {
+	return Math.PI * radio;
+}
+
+public double obtenerArea() {
+	return Math.PI * radio * Math.pow(radio, 2);
+	
+}
+
+public String toString() {
+	return "Circulo [radio=" + radio + ", centro=" + centro + "]";
+}
+
+
+
+}

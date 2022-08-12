@@ -1,0 +1,21 @@
+package circulo;
+
+public class PrueboCirculo {
+
+	public static void main(String[] args) {
+		Circulo circulito = new Circulo(2);
+		System.out.println(circulito);
+		
+		System.out.println("Area igual: "+ circulito.obtenerArea());
+		System.out.println("perimetro: " + circulito.calcularParametro());
+		
+		Circulo circulon = new Circulo(10);
+		System.out.println(circulon);
+		System.out.println("Area igual: "+ circulon.obtenerArea());
+		System.out.println("perimetro: " + circulon.calcularParametro());
+		
+		
+
+	}
+
+}
